@@ -2,8 +2,8 @@
 Weakly Supervised Deep Detection Networks for MatConvNet toolbox
 
 ## Results (PASCAL VOC 2007)
-|Network  | Proposals    | Box Score       | Sp. Regularizer | Flip-Train | Multi-scale-Train | Flip-Test         | Multi-scale-Test  | mAP |
-|---------|------------  |:---------------:|:---------------:|:-----------------:|:-----------------:|:-----------------:|:-----------------:|:-:|
+|Network  | Proposals    | Box Score       | Sp. Regularizer | Flip-Train | Multi-scale-Train | Flip-Test         | Multi-scale-Test  | mAP (%)|
+|-|-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | VGG-F   | EB | x | x | x | x |  |  | 32.5 |
 | VGG-F   | EB | x | x | x | x | x|  | 33.4 |
 | VGG-F   | EB | x | x | x | x | x| x| 36.4 |
@@ -18,7 +18,7 @@ If you find the code useful, please cite:
     @inproceedings{Bilen16,
       author     = "Bilen, H. and Vedaldi, A.",
       title      = "Weakly Supervised Deep Detection Networks',
-      booktitle  = "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition',
+      booktitle  = "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
       year       = "2016"
     }
 ```
